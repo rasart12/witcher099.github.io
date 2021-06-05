@@ -1,0 +1,214 @@
+.n-1{
+    margin-top: 35px;
+    border:2px groove silver  ;
+    padding-top: 15px;
+    
+}
+
+.witcher-1 {
+    color: rgb(124, 14, 14);
+    font-family: 'Stalinist One', cursive;
+}
+.witcher-2 {
+    color: rgb(124, 14, 14);
+    font-family: 'Stalinist One', cursive;
+}
+.witcher-3 {
+    color: rgb(124, 14, 14);
+    font-family: 'Stalinist One', cursive;
+}
+p{
+    color: blanchedalmond;
+    font-family: 'Stalinist One', cursive;
+font-family: 'Viaoda Libre', cursive;
+
+}
+.c-0{
+    color: silver;
+    padding-top: 25px;
+}
+
+.fixed-fon{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+     background: url(allGame/fon.jpg)  ;
+     z-index: -2;
+     background-position: 100% 100%;
+}
+.fixed-fon-a{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+     background: url(allGame/fon-1.jpg)  ;
+     z-index: -2;
+     background-position: 75% 40%;
+}
+.fixed-fon-b{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+     background: url(allGame/fon-3.jpg)  ;
+     z-index: -2;
+     background-position: 50% 10%;
+}
+.fixed-fon-c{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+     background: url(allGame/fon-2.jpg)  ;
+     z-index: -2;
+     background-position: 50% 10%;
+}
+.fixed-dark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+     background-color: rgba(0, 0, 0, 0.692);
+     z-index: -1;
+}
+.name-a{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.img-fluid{
+    width: 800px;
+    height: 700px;
+}
+.col-md-4{
+    border: 4px silver;
+}
+a{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    z-index: 1060;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    overflow-x: hidden;
+}
+.my-anim-left {
+    transform: translateX(-120%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.activ-anim-left {
+    transform: translateX(0);
+    opacity: 1;
+}
+.my-anim-right {
+    transform: translateX(200%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.activ-anim-right {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.my-anim-top {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: 2s .5s;
+}
+
+.activ-anim-top {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.my-anim-bottom {
+    transform: translateY(200%);
+    opacity: 0;
+    transition: 2s .5s;
+}
+
+.activ-anim-bottom {
+    transform: translateY(0);
+    opacity: 2;
+}

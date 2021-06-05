@@ -1,0 +1,29 @@
+HTML
+<div id='preloader'>
+	Все ставиться сюди
+      	<p>Прелоадер</p>
+</div>
+
+CSS
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    z-index: 1060;
+    overflow: hidden;
+}
+
+JS
+
+ window.onload = function () {
+            let preloader = document.getElementById('preloader');
+            setTimeout(() => {
+                preloader.style.display = 'none';
+            }, 1000);
+        }
